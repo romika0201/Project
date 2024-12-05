@@ -1,0 +1,15 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Non-Vegan Ingredient</th>
+            <th>Plant-Based Substitute</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Eggs</td>
+            <td>Flaxseed meal + water</td>
+        </tr>
+        <!-- Add more rows -->
+    </tbody>
+</table>
