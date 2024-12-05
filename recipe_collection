@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <title>Recipe Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Recipe Collection - Vegan Baking</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -13,7 +13,8 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
                 <li class="nav-item"><a class="nav-link" href="ingredient_substitutions.html">Ingredient Substitutions</a></li>
-                <li class="nav-item"><a class="nav-link" href="common_errors.html">Common Baking Errors</a></li>
+                <li class="nav-item"><a class="nav-link active" href="recipe_collection.html">Recipe Collection</a></li>
+                <li class="nav-item"><a class="nav-link" href="common_errors.html">Common Errors</a></li>
                 <li class="nav-item"><a class="nav-link" href="community_forum.html">Community Forum</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact Us</a></li>
             </ul>
@@ -24,29 +25,29 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/recipe1.jpg" class="card-img-top" alt="Chocolate Cake">
+                    <img src="images/recipe1.jpg" class="card-img-top" alt="Vegan Chocolate Cake">
                     <div class="card-body">
                         <h5 class="card-title">Vegan Chocolate Cake</h5>
-                        <p class="card-text">Rich and moist vegan chocolate cake recipe.</p>
+                        <p>Rich and moist vegan chocolate cake recipe.</p>
                         <a href="#" class="btn btn-success">View Recipe</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="images/recipe2.jpg" class="card-img-top" alt="Banana Bread">
+                    <img src="images/recipe2.jpg" class="card-img-top" alt="Vegan Banana Bread">
                     <div class="card-body">
                         <h5 class="card-title">Vegan Banana Bread</h5>
-                        <p class="card-text">Easy banana bread made with plant-based ingredients.</p>
+                        <p>Easy banana bread made with plant-based ingredients.</p>
                         <a href="#" class="btn btn-success">View Recipe</a>
                     </div>
                 </div>
             </div>
-            <!-- Add more cards for other recipes -->
         </div>
     </div>
     <footer class="text-center py-3 bg-light">
         &copy; 2024 Vegan Baking. All rights reserved.
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
